@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 智航AI生涯规划助手
 
-## Getting Started
+一个面向高校学生的 AI 职业发展初始导航工具，帮助正在探索实习、就业、升学和职业方向的学生，通过轻量化测评完成基础画像构建，并生成个性化职业导航报告与初始机会推荐。
 
-First, run the development server:
+在线体验地址：  
+https://zhihang-ai-career-mvp.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 项目定位
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+「智航AI生涯规划助手」定位为高校学生职业探索阶段的第一张地图。
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+它不是招聘平台，也不是心理测评系统，而是一个帮助学生快速完成自我梳理、理解职业方向、获得初步行动建议的 Web/H5 MVP 产品。
 
-## Learn More
+第一版重点验证：
 
-To learn more about Next.js, take a look at the following resources:
+- 学生是否愿意完成 5-8 分钟的轻量测评；
+- AI 职业导航报告是否能帮助学生更清楚地认识自己；
+- 初始机会推荐是否能为学生提供下一步探索入口；
+- 产品是否适合后续在高校就业指导、职业发展活动中试点。
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 核心流程
 
-## Deploy on Vercel
+用户完整体验路径：
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```text
+首页
+→ 基础信息填写
+→ 职业兴趣测评
+→ 技能与经历评估
+→ 职业偏好设置
+→ 生成职业导航报告
+→ 个性化机会推荐
+→ 用户反馈
+→ 本地简易后台查看
